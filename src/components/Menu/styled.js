@@ -55,6 +55,7 @@ export const ButtonLogout = styled.button`
   padding-top: 1rem;
   height: 20px;
   border: 0;
+  cursor: pointer;
 `;
 
 export const ImgLogout = styled.img`
