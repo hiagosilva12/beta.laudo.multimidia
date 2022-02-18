@@ -1,7 +1,7 @@
-import React from 'react'
-import { createGlobalStyle } from 'styled-components'
+import React from "react";
+import { createGlobalStyle } from "styled-components";
 
-import { Layouts } from './components/Layouts'
+import { Layouts } from "./components/Layouts";
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -14,13 +14,13 @@ const GlobalStyle = createGlobalStyle`
     h1{font-size: 28px;}
     h2{font-size: 16px;}
   }
-`
+`;
 
 export default function App() {
-  return(
+  return (
     <>
       <GlobalStyle />
       <Layouts />
     </>
-  )
+  );
 }

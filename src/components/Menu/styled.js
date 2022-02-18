@@ -6,15 +6,15 @@ export const MenuContainer = styled.div`
   max-width: 20rem;
   width: 100%;
   height: 100%;
-  background-color: #EDEDED;
-`
+  background-color: #ededed;
+`;
 
 export const ProfileContainer = styled.div`
   display: flex;
   justify-content: center;
   width: 100%;
   height: 8rem;
-`
+`;
 
 export const ProfileContent = styled.div`
   display: flex;
@@ -23,7 +23,7 @@ export const ProfileContent = styled.div`
   width: 16.4rem;
   height: 100%;
   border-bottom: 2px #fff solid;
-`
+`;
 
 export const Icon = styled.span`
   display: flex;
@@ -37,18 +37,26 @@ export const Icon = styled.span`
   h2 {
     font-size: 24px;
   }
-`
+`;
 
 export const Dates = styled.span`
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-`
+`;
 
-export const Name = styled.h2`
-
-`
+export const Name = styled.h2``;
 
 export const Email = styled.p`
-  color: #4D4D4D;
-`
+  color: #4d4d4d;
+`;
+
+export const ButtonLogout = styled.button`
+  padding-top: 1rem;
+  height: 20px;
+  border: 0;
+`;
+
+export const ImgLogout = styled.img`
+  width: 35px;
+`;
